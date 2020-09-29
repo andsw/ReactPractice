@@ -54,7 +54,6 @@ ThemeButton.contextType = ThemeContext;
 
 class Button extends Component {
     render() {
-        console.log(this.props.theme);
         return <button style={{color: this.props.theme}}>use context button, font color is context value ! </button>
     }
 }

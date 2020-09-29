@@ -8,7 +8,7 @@ export default class AddItemToArray extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            array: ["吃饭", "睡觉", "打豆豆"],
+            array: ["吃饭", "睡觉", "想豆豆"],
             inputValue: ''
         };
         // console.log(this.state.array);

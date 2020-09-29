@@ -12,6 +12,10 @@ export default class ClassComponent extends Component {
     }
 }
 
+ClassComponent.defaultProps = {
+    data: "default props value"
+}
+
 ClassComponent.propsType = {
     data: PropTypes.string.isRequired,
     age: PropTypes.number
