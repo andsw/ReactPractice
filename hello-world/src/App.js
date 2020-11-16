@@ -83,6 +83,7 @@ class App extends Component {
         <hr/>
         {/*redux*/}
         <ReduxNotes/>
+        <hr/>
       </div>);
   }
 }

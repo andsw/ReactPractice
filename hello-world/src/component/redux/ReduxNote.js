@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import store from "./store";
 import {InitNotes, addNoteAction} from "./reducer/ActionCreator";
+import connect from "react-redux/lib/connect/connect";
 
 const ReduxNotes = () => {
 
@@ -11,7 +12,7 @@ const ReduxNotes = () => {
         };
 
     }, []);
-
+    connect()();
     const submitHandler = (e) => {
         e.preventDefault()
         let length = store.getState().length;
